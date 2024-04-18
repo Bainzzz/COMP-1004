@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(#0000CD, #000 );
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.tbox {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    position: fixed;
+    bottom: 10px;
+}
+
+
+.btn {
+    background-color: white;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}
