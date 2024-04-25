@@ -846,10 +846,6 @@ const textNodes = [
         ]
     },
     {
-        id: 500,
-        text: 'skibidi'
-    },
-    {
         id: 59,
         text: 'As you follow the right path you feel at ease, the path leads you to an open field and with the Sun shining it is quite the peaceful sight. Following the path you come across a bridge that spans over a large ditch. You have no choice but to go over the bridge.',
         options: [
@@ -1416,7 +1412,7 @@ const textNodes = [
             },
             {
                 text: 'Ignore the man',
-                nextText: 500
+                nextText: 113
             }
         ]
     },
@@ -2072,7 +2068,7 @@ const textNodes = [
         options: [
             {
                 text: 'Talk to Zarathul',
-                nextText: 600
+                nextText: 168
             }
         ]
     },
@@ -2098,7 +2094,7 @@ const textNodes = [
     },
     {
         id: 160,
-        text: 'You try to kill him right there however when you go to stab Aurelius you miss his vitals and now youre vulnerable. Aurelius releases another blast of blue energy that pierces your body. You fall to the ground lifeless you was so close to defeating him however Aurelius bested you putting an end to your journey.',
+        text: 'You try to kill him right there however when you go to stab Aurelius you miss his vitals and now youre vulnerable. Aurelius releases another blast of blue energy that pierces your body. You fall to the ground lifeless you was so close to defeating him however Aurelius bested you putting an end to your journey',
         options: [
             {
                 text: 'Retry',
@@ -2112,7 +2108,7 @@ const textNodes = [
         options: [
             {
                 text: 'Talk to Zarathul',
-                nextText: 600
+                nextText: 168
             }
         ]
     },
@@ -2146,7 +2142,7 @@ const textNodes = [
         options: [
             {
                 text: 'Talk to Aurelius',
-                nextText: 600
+                nextText: 165
             }
         ]
     },
@@ -2169,10 +2165,22 @@ const textNodes = [
     {
         id: 167,
         text: 'You sacrifice the dragon heart yourself to the Lost Realm and Aurelius screams in anger "No! How did you slay the dragon?! That is impossible for a mortal such as yourself! Aurelius screams in disdain his plan to become the ruler of Eldoria ruined because of you! If you cant be the hero of Eldoria, you will rule the Lost Realm yourself and conquer the realms.',
+        options: [
+            {
+                text: 'Restart',
+                nextText: -1
+            }
+        ]
     },
     {
         id: 166,
         text: 'Aurelius laughs maniacally as the Lost Realm consumes Eldoria. Youre no hero, you helped a tyrant tear down your home! "Thank you hero! But I no longer have use for you" is the last thing you hear before you draw your last breath to Aurelius.',
+        options: [
+            {
+                text: 'Restart',
+                nextText: -1
+            }
+        ]
     },
     {
         id: 168,
@@ -2193,14 +2201,25 @@ const textNodes = [
     {
         id: 169,
         text: 'The dragon you encountered earlier arrives and helps Zarathul in closing the link between the Lost Realm and Eldoria. "Thanks to you hero we have saved Eldoria and the Lost Realm has been sealed off forever"',
+        options: [
+            {
+                text: 'Restart',
+                nextText: -1
+            }
+        ]
     },
     {
         id: 170,
         text: 'Revealing that you had slayed the dragon Zarathul looks shocked "but how? There is no time we must sacrifice the dragons heart in order to force the Lost Realm to obey us! We must command the Lost Realm to break the link it has with Eldoria! However we will be banished in the Lost Realm. The ruler of the Lost Realm may never leave it so if we break the link with Eldoria we will be forced to live out our days in the Lost Realm." That is what you both do. sacrificing yourselves for your Eldoria, your home.',
-    }
-
-
+        options: [
+            {
+                text: 'Restart',
+                nextText: -1
+            }
+        ]
+    },
 
 ]
+
 
 startGame()
