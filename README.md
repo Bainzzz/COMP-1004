@@ -9,7 +9,9 @@ I have scattered items that can be missed if the player doesn't explore enough w
 I also intended on having some minigames that would show up such as 'lights out' to keep things a bit more interactive and avoid repetition however due to time constraints this was unachievable.
 I have developed an extremely simple rock paper scissors game (Orc, Elf, Dwarf rspectively) with very simple interface however I was unable to implement it into my core gameplay loop without breaking it.
 I have attached that Rock Paper Scissors game to this repository so it can still be observed.
-they are under rps.html, rpsStyle.css, rpsScript.jss
+they are under rps.html, rpsStyle.css, rpsScript.js
 
 
 my main software (the interactive hyper text game) is under game.html, game.js, style.css
+I do have some previous versions however I was having trouble with github for some time and I have been unable to get this working since. 
+some of my older versions are saved on a Google Drive if you require to see them 
